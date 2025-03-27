@@ -261,6 +261,7 @@ Sprite = function () {
     return canidates
   };
   this.checkCollisionsAgainst = function (canidates) {
+    return;
     for (var i = 0; i < canidates.length; i++) {
       var ref = canidates[i];
       do {
